@@ -8,7 +8,7 @@ body{
 
 .counter{
     height: 500px;
-    width: 600px;
+    width: 400px;
     background-color: #EFEFE6;
     margin: 70px auto;
     color: black;
@@ -30,6 +30,8 @@ body{
     background-color: green;
     border: none;
     margin: 10px;
+    padding: 5px 10px;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
     border-bottom: 5px solid black;
@@ -37,7 +39,11 @@ body{
 }
 
 .increment{
-    background:#B01C1C;
+    background: #4c4ccb;
+}
+
+.clear{
+    background-color: #B01C1C;
 }
 
 p{

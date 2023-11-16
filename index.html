@@ -10,12 +10,12 @@
     <div class="counter">
         <h1>Subway Counter App</h1>
         <h2>People Entered :</h2>
-        <h1 class="number">0</h1>
+        <h1 class="number" id="count">0</h1>
 
-        <button class="increment btn">INCREMENT</button>
-        <br>
-        <button class="save btn">SAVE</button>
-        <p>Passengers Entered:</p>
+        <button class="increment btn" onclick="increment()">INCREMENT</button>
+        <button class="save btn" onclick="save()">SAVE</button>
+        <button class="clear btn" id="clear-btn">CLEAR</button>
+        <p id="entries">Passengers Entered:</p>
     </div>
 
 <script src="index.js"></script>
